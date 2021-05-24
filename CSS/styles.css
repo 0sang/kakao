@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "variables.css";
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+/* Screens */
+@import "screen/login.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
+/* @media screen and (min-width: 501px) {
+  HTML {
+    background-image: url(https://lh3.googleusercontent.com/proxy/GoqJJEyv098W77GlPpQu1sU85kmO80tQHUNc4L_PDybjRcrMw3JOF8tZu4iTWUY4z6Dk0AHQClqWcbxTRTKMXQR_3-U8ltQstpMT102xjUXT7Ulk7D8jwhRYYKzLhMBtVC1rcRzZyNma6U1oLQ);
+  }
+} */
+body {
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+}
+
+.welcome-header {
+  margin: 70px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}

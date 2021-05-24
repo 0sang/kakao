@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat-000 - Kakao Talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!-- Do to Wifi Icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:42</span>
+      </div>
+      <div class="status-bar__column">
+        <span>95%</span>
+        <!-- Bettery Icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Paka9999</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, May 24, 2021</div>
+      <div class="message-row">
+        <img src="screenshots/paka.png" />
+        <div class="message-row__content">
+          <span class="message-author">Paka9999</span>
+          <div class="message__info">
+            <span class="message__bubble">이게 캐리가 아니면</span>
+            <span class="message__time">03:22</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">클라스</span>
+            <span class="message__time">03:22</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="screenshots/paka.png" />
+        <div class="message-row__content">
+          <span class="message-author">Paka9999</span>
+          <div class="message__info">
+            <span class="message__bubble">뭐임!</span>
+            <span class="message__time">03:23</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="form-over">
+      <div class="reply">
+        <div class="reply__column">
+          <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+          <input type="text" placeholder="Write a message..." />
+          <i class="far fa-smile-wink fa-lg"></i>
+        </div>
+      </div>
+      <button class="arrow__button">
+        <i class="fas fa-arrow-up fa-lg"></i>
+      </button>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/217b248def.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

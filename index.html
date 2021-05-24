@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kakao Clonek</title>
+    <title>Welcome to Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -25,18 +25,32 @@
       </div>
     </div>
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kakoa Clone</h1>
+      <h1 class="welcome-header__title">Welcome to Kakao TV Talk</h1>
       <p class="welcome-header__text">
         If you have Kakao Account, log in with your email or phone number.
       </p>
     </header>
-    <form  action="friends.html" method="get" id="login-form">
-      <input name="username" required type="text" placeholder="Email and phone number" />
-      <input name="password" required type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+      <input
+        name="username"
+        required
+        type="email"
+        placeholder="Email and phone number"
+      />
+      <input
+        name="password"
+        required
+        type="password"
+        minlength="8"
+        placeholder="Password"
+      />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
-      <a href=#">Find Kakao Account or Password</a>
+      <a href="#">Find Kakao Account or Password</a>
     </form>
+    <div id="no-mobile">
+      <span>Your screen is too big!</span>
+    </div>
     <script
       src="https://kit.fontawesome.com/217b248def.js"
       crossorigin="anonymous"
